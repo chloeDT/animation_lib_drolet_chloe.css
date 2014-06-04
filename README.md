@@ -2,11 +2,11 @@
 
 Bonjour, vous avez dans vos mains une librairie contenant diverses animations que vous pouvez utiliser sur le web. Ce document vous permettra de comprendre comment utiliser ces animations à leur plein potentiel.
 
-## 1. Comment intégrer la libraire dans votre site web?
+## Comment intégrer la libraire dans votre site web?
 
 #### Étape 1
 
-Prenez le fichier **animation_lib_drolet_chloe.css** et glissez-le dans le dossier où vous avez disposez de vos fichiers css ou à la base du dossier. 
+Prenez le fichier `animation_lib_drolet_chloe.css` et glissez-le dans le dossier où vous avez disposez de vos fichiers css ou à la base du dossier. 
 
 #### Étape 2
 
@@ -14,13 +14,13 @@ Pour utiliser le fichier d’animation sur votre site web, vous devez relier le 
 
 
 
-## 2. Comment utiliser les animations sur votre site web?
+## Comment utiliser les animations sur votre site web?
 
 #### Étape 1
 
-Pour utiliser les animations de la libraire sur votre site vous devez simplement ajouter la classe animation aux objets que vous voulez animer ainsi que la classe titre de l’animation voulu.
+Pour utiliser les animations de la libraire sur votre site vous devez simplement ajouter la classe `animation` aux objets que vous voulez animer ainsi que la classe titre de l’animation voulu.
 
-Par exemple, vous voulez utiliser flotter dans un div, le code ressemblera à ça:
+Par exemple, vous voulez utiliser `flotter` dans un div, le code ressemblera à ça:
 
 ```html
 <div class="animation flotter"></div>
@@ -59,7 +59,7 @@ Maintenant vous voulez augmenter le delay, la duration ou le nombre de fois que 
 
 ```
 
-**Si vous voulez que votre animation joue à l’infini seulement ajouter la classe infini à votre objet.
+** Si vous voulez que votre animation joue à l’infini seulement ajouter la classe `infini` à votre objet.
 
 
 
@@ -67,20 +67,20 @@ Maintenant vous voulez augmenter le delay, la duration ou le nombre de fois que 
 
 ### Animation - flotter
 
-L’animation flotter fait un mouvement de haut en bas (sur l’axe des Y) tout en perdant de l’opacité ainsi qu’un changement de couleur. Vous pouvez les trois propriétés sans aucun problème.
+L’animation `flotter` fait un mouvement de haut en bas (sur l’axe des Y) tout en perdant de l’opacité ainsi qu’un changement de couleur. Vous pouvez les trois propriétés sans aucun problème.
 
 ### Animation - glisse_disparait 
 
-L’animation glisse_disparait glisse de gauche à droite (sur l’axe des X) tout en disparaissant (opacité devient 0) et changeant de couleur. Vous pouvez les trois propriétés sans aucun problème.
+L’animation `glisse_disparait` glisse de gauche à droite (sur l’axe des X) tout en disparaissant (opacité devient 0) et changeant de couleur. Vous pouvez les trois propriétés sans aucun problème.
 
 ### Animation - rotation
 
-L’animation rotation fait un mouvement de va et vient (sur l’axe des X) tout en faisait une rotation et changeant de couleur. Vous pouvez les deux propriétés sans aucun problème.
+L’animation `rotation` fait un mouvement de va et vient (sur l’axe des X) tout en faisait une rotation et changeant de couleur. Vous pouvez les deux propriétés sans aucun problème.
 
 ### Animation - coeur_battant
 
-L’animation coeur_battant fait un mouvement de grossir et rapetisser pour donner l’effet d’un mouvement de coeur qui bat. L’animation comment avec une opacité de 0%, à 50% elle devient 100% d’opacité et redevient 0% d’opacité.  Vous pouvez modifier les 3 propriétés sans aucun problème.
+L’animation `coeur_battant` fait un mouvement de grossir et rapetisser pour donner l’effet d’un mouvement de coeur qui bat. L’animation comment avec une opacité de 0%, à 50% elle devient 100% d’opacité et redevient 0% d’opacité.  Vous pouvez modifier les 3 propriétés sans aucun problème.
 
 ### Animation - bondir
 
-L’animation bondir fait le mouvement d’une balle qui rebondit. Elle fait un mouvement sur l’axe des Y tout en s’écrasant à l’atterrissage. Une certaine vitesse produit quand la balle saute.
+L’animation `bondir` fait le mouvement d’une balle qui rebondit. Elle fait un mouvement sur l’axe des Y tout en s’écrasant à l’atterrissage. Une certaine vitesse produit quand la balle saute.
