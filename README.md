@@ -6,11 +6,11 @@ Bonjour, vous avez dans vos mains une librairie contenant diverses animations qu
 
 #### Étape 1
 
-Prenez le fichier animation_lib_drolet_chloe.css et glissez-le dans le dossier où vous avez disposez de vos fichiers css ou à la base du dossier. 
+Prenez le fichier **animation_lib_drolet_chloe.css** et glissez-le dans le dossier où vous avez disposez de vos fichiers css ou à la base du dossier. 
 
 #### Étape 2
 
-Pour utiliser le fichier d’animation sur votre site web, vous devez relier le fichier css à votre page html. Pour se faire écrire <link rel=“stylesheet" href=“animation_lib_drolet_chloe.css”> entre le <head>…</head> de votre fichier html.
+Pour utiliser le fichier d’animation sur votre site web, vous devez relier le fichier css à votre page html. Pour se faire écrire `<link rel=“stylesheet" href=“animation_lib_drolet_chloe.css”>` entre le `<head>…</head>` de votre fichier html.
 
 
 
@@ -39,22 +39,22 @@ Maintenant vous voulez augmenter le delay, la duration ou le nombre de fois que 
 /* La durée de l’animation dans un cycle */
 	-webkit-animation-duration: 2s;
     	-moz-animation-duration: 2s;
-   	 -o-animation-duration: 2s;
+	-o-animation-duration: 2s;
    	animation-duration: 2s;
 
 /* Le délai en secondes avant que l’animation commence */
 
--webkit-animation-delay: 2s;
-    	 -moz-animation-delay: 2s;
-   	   -o-animation-delay: 2s;
-   	    animation-delay: 2s;
+	-webkit-animation-delay: 2s;
+	-moz-animation-delay: 2s;
+	-o-animation-delay: 2s;
+	animation-delay: 2s;
 
 	/* Le nombre de fois que l’animation va se dérouler. Vous pouvez entre le nombre de fois exact que vous voulez que l'animation se déroule ou vous pouvez écrire infinite (infini de fois) */
 
-	   -webkit-animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
     	-moz-animation-iteration-count: infinite;
-   	  -o-animation-iteration-count: infinite;
-   	  animation-iteration-count: infinite;
+   	-o-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
 }
 
 ```
