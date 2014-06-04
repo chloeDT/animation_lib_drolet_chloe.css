@@ -1,6 +1,6 @@
 # Librairie CSS3
 
-Bonjour, vous avez dans vos mains une librairie contenant diverses animations que vous pouvez utiliser sur le web. Ce document vous permettra de comprendre comment utiliser ces animations à leur plein potentiel.
+Bonjour, vous avez dans vos mains une librairie contenant diverses animations que vous pouvez utiliser sur le web. Ce document vous permettra de comprendre comment utiliser ces animations à leur plein potentiel. :bowtie:
 
 ## Comment intégrer la libraire dans votre site web?
 
