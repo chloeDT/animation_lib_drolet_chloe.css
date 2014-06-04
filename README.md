@@ -23,7 +23,7 @@ Pour utiliser les animations de la libraire sur votre site vous devez simplement
 Par exemple, vous voulez utiliser flotter dans un div, le code ressemblera à ça:
 
 ```html
-<div class=“animation flotter”></div>
+<div class="animation flotter"></div>
 ```
 
 #### Étape 2
