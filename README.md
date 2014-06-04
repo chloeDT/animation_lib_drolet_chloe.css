@@ -10,7 +10,7 @@ Prenez le fichier `animation_lib_drolet_chloe.css` et glissez-le dans le dossier
 
 #### Étape 2
 
-Pour utiliser le fichier d’animation sur votre site web, vous devez relier le fichier css à votre page html. Pour se faire écrire `<link rel=“stylesheet" href=“animation_lib_drolet_chloe.css”>` entre le `<head>…</head>` de votre fichier html.
+Pour utiliser le fichier d’animation sur votre site web, vous devez relier le fichier css à votre page html. Pour se faire écrire `<link rel=“stylesheet" href="animation_lib_drolet_chloe.css">` entre le `<head>…</head>` de votre fichier html.
 
 
 
