@@ -32,7 +32,7 @@ Maintenant vous voulez augmenter le delay, la duration ou le nombre de fois que 
 
 1. Vous devez créé un id relié à votre élément à animer.
 
-2. Ensuite, placez les propriétés choisi.
+2. Ensuite, placez une ou plusieurs des propriétés choisies:
 
 ```css
 #votreObjet{
