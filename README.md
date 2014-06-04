@@ -33,6 +33,7 @@ Maintenant vous voulez augmenter le delay, la duration ou le nombre de fois que 
 
 2. Ensuite, placez les propriétés choisi.
 
+```
 #votreObjet{
 /* La durée de l’animation dans un cycle */
 	-webkit-animation-duration: 2s;
@@ -49,11 +50,13 @@ Maintenant vous voulez augmenter le delay, la duration ou le nombre de fois que 
 
 	/* Le nombre de fois que l’animation va se dérouler. Vous pouvez entre le nombre de fois exact que vous voulez que l'animation se déroule ou vous pouvez écrire infinite (infini de fois) */
 
+```
 	-webkit-animation-iteration-count: infinite;
     	-moz-animation-iteration-count: infinite;
    	 -o-animation-iteration-count: infinite;
    	animation-iteration-count: infinite;
 }
+
 ```
 
 **Si vous voulez que votre animation joue à l’infini seulement ajouter la classe infini à votre objet.
