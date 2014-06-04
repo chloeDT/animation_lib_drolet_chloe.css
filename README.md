@@ -22,8 +22,9 @@ Pour utiliser les animations de la libraire sur votre site vous devez simplement
 
 Par exemple, vous voulez utiliser flotter dans un div, le code ressemblera à ça:
 
+```html
 <div class=“animation flotter”></div>
-
+```
 
 #### Étape 2
 
@@ -33,7 +34,7 @@ Maintenant vous voulez augmenter le delay, la duration ou le nombre de fois que 
 
 2. Ensuite, placez les propriétés choisi.
 
-```
+```css
 #votreObjet{
 /* La durée de l’animation dans un cycle */
 	-webkit-animation-duration: 2s;
@@ -44,17 +45,16 @@ Maintenant vous voulez augmenter le delay, la duration ou le nombre de fois que 
 /* Le délai en secondes avant que l’animation commence */
 
 -webkit-animation-delay: 2s;
-    	-moz-animation-delay: 2s;
-   	 -o-animation-delay: 2s;
-   	animation-delay: 2s;
+    	 -moz-animation-delay: 2s;
+   	   -o-animation-delay: 2s;
+   	    animation-delay: 2s;
 
 	/* Le nombre de fois que l’animation va se dérouler. Vous pouvez entre le nombre de fois exact que vous voulez que l'animation se déroule ou vous pouvez écrire infinite (infini de fois) */
 
-```
-	-webkit-animation-iteration-count: infinite;
+	   -webkit-animation-iteration-count: infinite;
     	-moz-animation-iteration-count: infinite;
-   	 -o-animation-iteration-count: infinite;
-   	animation-iteration-count: infinite;
+   	  -o-animation-iteration-count: infinite;
+   	  animation-iteration-count: infinite;
 }
 
 ```
