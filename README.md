@@ -48,7 +48,8 @@ Maintenant vous voulez augmenter le delay, la duration ou le nombre de fois que 
 	-o-animation-delay: 2s;
 	animation-delay: 2s;
 
-	/* Le nombre de fois que l’animation va se dérouler. Vous pouvez entre le nombre de fois exact que vous voulez que l'animation se déroule ou vous pouvez écrire infinite (infini de fois) */
+	/* Le nombre de fois que l’animation va se dérouler. 
+	Vous pouvez entre le nombre de fois exact que vous voulez que l'animation se déroule ou vous pouvez écrire infinite (infini de fois) */
 	-webkit-animation-iteration-count: infinite;
     	-moz-animation-iteration-count: infinite;
    	-o-animation-iteration-count: infinite;
