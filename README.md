@@ -30,9 +30,9 @@ Par exemple, vous voulez utiliser `flotter` dans un div, le code ressemblera à 
 
 Maintenant vous voulez augmenter le delay, la duration ou le nombre de fois que l’animation joue. Voici quoi faire:
 
-1. Vous devez créé un `id` relié à votre élément à animer.
+1. Vous devez créé un `id` relié à votre élément html que vous voulez animer.
 
-2. Ensuite, placez une ou plusieurs des propriétés choisies:
+2. Ensuite, placez une ou plusieurs des propriétés choisies parmi l'exemple si-dessous :
 
 ```css
 #votreObjet{
