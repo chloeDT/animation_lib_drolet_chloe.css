@@ -82,4 +82,4 @@ L’animation `coeur_battant` fait un mouvement de grossir et rapetisser pour do
 
 ### Animation - bondir
 
-L’animation `bondir` fait le mouvement d’une balle qui rebondit. Elle fait un mouvement sur l’axe des Y tout en s’écrasant à l’atterrissage. Une certaine vitesse produit quand la balle saute.
+L’animation `bondir` fait le mouvement d’une balle qui rebondit. Elle fait un mouvement sur l’axe des Y tout en s’écrasant à l’atterrissage. Une certaine vitesse se produit quand la balle saute.
